@@ -1,0 +1,4 @@
+# MODE=copy
+# TARGET=/usr/local/bin
+# BACKUP=false
+# CLEAN=false

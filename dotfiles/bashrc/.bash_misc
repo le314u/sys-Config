@@ -1,0 +1,16 @@
+# Função fdeck - abre arquivos .dec do Cockatrice com fzf
+fdeck() {
+    local deckdir="$HOME/.local/share/Cockatrice/Cockatrice/decks"
+    local file
+    file=$(ls "$deckdir"/ 2>/dev/null | fzf) || return
+    echo "$deckdir/$file"
+}
+
+
+log(){
+	$HOME/.local/share/scripts/log.sh $1
+}
+
+model(){
+	$HOME/.local/share/scripts/model.sh
+}

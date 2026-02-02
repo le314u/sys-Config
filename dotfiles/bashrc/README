@@ -1,0 +1,6 @@
+MODE=link
+SOURCE=~/.myConf/bashrc
+TARGET=~
+BACKUP=false
+CLEAN=false
+EXEC=''

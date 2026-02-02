@@ -1,0 +1,5 @@
+bind = ALT, F1, exec, bash -c '/home/lucas/.local/share/scripts/app.sh -app'
+bind = ALT, F2, exec, bash -c '/home/lucas/.local/share/scripts/app.sh -sh'
+bind = ALT, F3, exec, bash -c '/home/lucas/.local/share/scripts/app.sh -file'
+bind = $mainMod, F1, exec, bash -c '/home/lucas/.local/share/scripts/site.sh'
+bind = $mainMod, F2, exec, bash -c '/home/lucas/.local/share/scripts/path.sh'

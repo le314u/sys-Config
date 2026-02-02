@@ -1,0 +1,16 @@
+
+# Example binds, see https://wiki.hypr.land/Configuring/Binds/ 
+bind = CTRL + ALT, T, exec, $terminal
+bind = ALT, F4, killactive,
+bind = ALT, F, togglefloating
+bind = $mainMod, E, exec, $terminal -- bash -ic "$fileManager -U -A -E -o"
+bind = $mainMod, W, exec, $browser
+bind = $mainMod + SHIFT, E, exec, nemo
+bind = $mainMod, F11, fullscreen
+bind = $mainMod, F, fullscreen
+bind = $mainMod, P, pseudo, # dwindle
+bind = $mainMod, TAB, togglesplit, # dwindle
+bind = , Print, exec, grimblast save area ~/Documentos/Pictures/screenshot/$(date +'%y%m%d%H%M%a%s').png
+bind = $mainMod, 0, exec, hyprlock
+bind = $mainMod SHIFT, 0, exit
+#bind = ALT, R, exec, parec --device=alsa_input.pci-0000_03_00.6.analog-stereo --file-format=wav test.wav 

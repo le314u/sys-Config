@@ -1,0 +1,6 @@
+MODE=link
+SOURCE=~/.myConf
+TARGET=~/.config
+BACKUP=false
+CLEAN=false
+EXEC=''

@@ -1,0 +1,10 @@
+
+#Simula BLoqueio de Hotkey
+bind=ALT,DELETE,exec,notify-send "Sem HotKeys"
+bind = ALT, DELETE, submap, block
+submap = block
+bind = ALT, DELETE,exec,notify-send "Com HotKeys"
+bind= ,escape,exec,notify-send "Com HotKeys"
+bind = , escape, submap, reset
+bind = ALT, DELETE, submap, reset
+submap = reset

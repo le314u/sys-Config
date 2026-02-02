@@ -1,0 +1,7 @@
+
+# ===============================
+# 🎉 Mensagem de boas-vindas
+# ===============================
+fastfetch
+echo -e "\n\e[1;32mBem-vindo, $USER! Pronto pra hackear o mundo?\e[0m 💻"
+echo -e "Use \e[1;33mupdate\e[0m para atualizar, e \e[1;33mclean\e[0m para limpar pacotes órfãos.\n"

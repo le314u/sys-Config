@@ -1,0 +1,27 @@
+
+# ===============================
+# Aliases úteis
+# ===============================
+if [ -x /usr/bin/dircolors ]; then
+    eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias grep='grep --color=auto'
+    alias egrep='egrep --color=auto'
+    alias fgrep='fgrep --color=auto'
+fi
+alias q='exit'
+alias ll='ls -lh'
+alias la='ls -A'
+alias l='ls -CF'
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# Sistema
+alias update='sudo pacman -Syu'
+alias clean='sudo pacman -Rns $(pacman -Qdtq) 2>/dev/null || echo "Nada pra limpar 👍"'
+alias unlock='sudo rm /var/lib/pacman/db.lck'
+alias fixkeys='sudo loadkeys br-abnt2'
+
+# Diversos
+alias cls='clear'
+alias grep='grep --color=auto'

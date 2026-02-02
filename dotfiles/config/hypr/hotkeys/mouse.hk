@@ -1,0 +1,3 @@
+# Aumentar sensibilidade com (Shift + =) ou (Shift + -)
+bind = SHIFT, equal, exec, /usr/share/script/speedUp.sh up
+bind = SHIFT, minus, exec,  /usr/share/script/speedUp.sh down

@@ -1,0 +1,550 @@
+# Este arquivo viminfo foi gerado pelo Vim 9.1.
+# Você pode editá-lo se for cuidadoso!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' quando este arquivo foi escrito
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último padrão de busca :
+~MSle0~/S
+
+# Última string de substituição:
+$
+
+# Histórico de Linha de comando (mais recente primeiro):
+:x
+|2,0,1769392171,,"x"
+:q!
+|2,0,1768873884,,"q!"
+:q
+|2,0,1768873882,,"q"
+:w gittoken
+|2,0,1768792188,,"w gittoken"
+:w!
+|2,0,1768792182,,"w!"
+:w
+|2,0,1768792174,,"w"
+:qw
+|2,0,1768792171,,"qw"
+:wq
+|2,0,1768792164,,"wq"
+:q!]
+|2,0,1764868584,,"q!]"
+:read !ls
+|2,0,1764868552,,"read !ls"
+:put =system("ls -la")
+|2,0,1764868541,,"put =system(\"ls -la\")"
+::put =system("ls -la")n
+|2,0,1764868528,,":put =system(\"ls -la\")\n"
+:dt
+|2,0,1764845577,,"dt"
+:\dt
+|2,0,1764845574,,"\\dt"
+:/S
+|2,0,1764845109,,"/S"
+:\S
+|2,0,1764845096,,"\\S"
+:\3
+|2,0,1764845089,,"\\3"
+:!q
+|2,0,1764845033,,"!q"
+:m4
+|2,0,1764845020,,"m4"
+:m1
+|2,0,1764845016,,"m1"
+:m 
+|2,0,1764845012,,"m "
+:45
+|2,0,1764844329,,"45"
+:G
+|2,0,1764844221,,"G"
+:g
+|2,0,1764844218,,"g"
+:0
+|2,0,1764844208,,"0"
+:1
+|2,0,1764844206,,"1"
+:52
+|2,0,1764844205,,"52"
+:sa
+|2,0,1763086102,,"sa"
+
+# Histórico de expressões de busca (mais recente primeiro):
+? S
+|2,1,1764845109,,"S"
+
+# Histórico de expressões (mais recente primeiro):
+
+# Histórico de linha de entrada (mais recente primeiro):
+
+# Histórico de linha de debug (mais recente primeiro):
+
+# Registradores:
+""0	LINE	0
+	Comment=A secure and free password manager for all of your devices.
+|3,1,0,1,1,0,1766451585,"Comment=A secure and free password manager for all of your devices."
+"1	LINE	0
+	Comment=A secure and free password manager for all of your devices.
+|3,0,1,1,1,0,1765056817,"Comment=A secure and free password manager for all of your devices."
+"2	LINE	0
+	GenericName=Steam
+|3,0,2,1,1,0,1765056816,"GenericName=Steam"
+"3	LINE	0
+	Name=
+|3,0,3,1,1,0,1765056767,"Name="
+"4	LINE	0
+	2025-12-04 010:54:29
+|3,0,4,1,1,0,1764845881,"2025-12-04 010:54:29"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1764845880,""
+"6	LINE	0
+	
+|3,0,6,1,1,0,1764845880,""
+"7	LINE	0
+	2025-12-04 07:54:19
+|3,0,7,1,1,0,1764845880,"2025-12-04 07:54:19"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1764845879,""
+"9	LINE	0
+	2025-12-04 07:53:21
+|3,0,9,1,1,0,1764845607,"2025-12-04 07:53:21"
+"-	CHAR	0
+	n
+|3,0,36,0,1,0,1765056767,"n"
+
+# Marcas nos arquivos:
+'0  10  0  ~/.config/hypr/scripts/lock.sh
+|4,48,10,0,1769392171,"~/.config/hypr/scripts/lock.sh"
+'1  1  64  ~/health_DECOD
+|4,49,1,64,1768875004,"~/health_DECOD"
+'2  1  0  ~/health_DECOD
+|4,50,1,0,1768873906,"~/health_DECOD"
+'3  42  240  ~/health_DECOD
+|4,51,42,240,1768873884,"~/health_DECOD"
+'4  41  240  ~/health_DECOD
+|4,52,41,240,1768873884,"~/health_DECOD"
+'5  42  240  ~/health_DECOD
+|4,53,42,240,1768873884,"~/health_DECOD"
+'6  41  240  ~/health_DECOD
+|4,54,41,240,1768873884,"~/health_DECOD"
+'7  1  0  ~/code
+|4,55,1,0,1768873860,"~/code"
+'8  70  37  ~/health_DECOD
+|4,56,70,37,1768873496,"~/health_DECOD"
+'9  70  37  ~/health_DECOD
+|4,57,70,37,1768873496,"~/health_DECOD"
+
+# Lista de saltos (mais recente primeiro):
+-'  10  0  ~/.config/hypr/scripts/lock.sh
+|4,39,10,0,1769392171,"~/.config/hypr/scripts/lock.sh"
+-'  1  0  ~/.config/hypr/scripts/lock.sh
+|4,39,1,0,1769392137,"~/.config/hypr/scripts/lock.sh"
+-'  1  64  ~/health_DECOD
+|4,39,1,64,1768875004,"~/health_DECOD"
+-'  1  64  ~/health_DECOD
+|4,39,1,64,1768875004,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768873906,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768873906,"~/health_DECOD"
+-'  42  240  ~/health_DECOD
+|4,39,42,240,1768873884,"~/health_DECOD"
+-'  41  240  ~/health_DECOD
+|4,39,41,240,1768873884,"~/health_DECOD"
+-'  42  240  ~/health_DECOD
+|4,39,42,240,1768873884,"~/health_DECOD"
+-'  41  240  ~/health_DECOD
+|4,39,41,240,1768873884,"~/health_DECOD"
+-'  42  240  ~/health_DECOD
+|4,39,42,240,1768873884,"~/health_DECOD"
+-'  41  240  ~/health_DECOD
+|4,39,41,240,1768873884,"~/health_DECOD"
+-'  42  240  ~/health_DECOD
+|4,39,42,240,1768873884,"~/health_DECOD"
+-'  41  240  ~/health_DECOD
+|4,39,41,240,1768873884,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768873866,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768873866,"~/health_DECOD"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  1  0  ~/code
+|4,39,1,0,1768873860,"~/code"
+-'  70  37  ~/health_DECOD
+|4,39,70,37,1768873496,"~/health_DECOD"
+-'  69  37  ~/health_DECOD
+|4,39,69,37,1768873496,"~/health_DECOD"
+-'  68  37  ~/health_DECOD
+|4,39,68,37,1768873496,"~/health_DECOD"
+-'  70  37  ~/health_DECOD
+|4,39,70,37,1768873496,"~/health_DECOD"
+-'  69  37  ~/health_DECOD
+|4,39,69,37,1768873496,"~/health_DECOD"
+-'  69  37  ~/health_DECOD
+|4,39,69,37,1768873496,"~/health_DECOD"
+-'  68  37  ~/health_DECOD
+|4,39,68,37,1768873496,"~/health_DECOD"
+-'  68  37  ~/health_DECOD
+|4,39,68,37,1768873496,"~/health_DECOD"
+-'  70  37  ~/health_DECOD
+|4,39,70,37,1768873496,"~/health_DECOD"
+-'  69  37  ~/health_DECOD
+|4,39,69,37,1768873496,"~/health_DECOD"
+-'  68  37  ~/health_DECOD
+|4,39,68,37,1768873496,"~/health_DECOD"
+-'  70  37  ~/health_DECOD
+|4,39,70,37,1768873496,"~/health_DECOD"
+-'  69  37  ~/health_DECOD
+|4,39,69,37,1768873496,"~/health_DECOD"
+-'  69  37  ~/health_DECOD
+|4,39,69,37,1768873496,"~/health_DECOD"
+-'  68  37  ~/health_DECOD
+|4,39,68,37,1768873496,"~/health_DECOD"
+-'  68  37  ~/health_DECOD
+|4,39,68,37,1768873496,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768872325,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768872325,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768872325,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768872325,"~/health_DECOD"
+-'  105  13  ~/health_DECOD
+|4,39,105,13,1768872271,"~/health_DECOD"
+-'  104  13  ~/health_DECOD
+|4,39,104,13,1768872271,"~/health_DECOD"
+-'  103  13  ~/health_DECOD
+|4,39,103,13,1768872271,"~/health_DECOD"
+-'  105  13  ~/health_DECOD
+|4,39,105,13,1768872271,"~/health_DECOD"
+-'  104  13  ~/health_DECOD
+|4,39,104,13,1768872271,"~/health_DECOD"
+-'  104  13  ~/health_DECOD
+|4,39,104,13,1768872271,"~/health_DECOD"
+-'  103  13  ~/health_DECOD
+|4,39,103,13,1768872271,"~/health_DECOD"
+-'  103  13  ~/health_DECOD
+|4,39,103,13,1768872271,"~/health_DECOD"
+-'  103  13  ~/health_DECOD
+|4,39,103,13,1768872271,"~/health_DECOD"
+-'  105  13  ~/health_DECOD
+|4,39,105,13,1768872271,"~/health_DECOD"
+-'  104  13  ~/health_DECOD
+|4,39,104,13,1768872271,"~/health_DECOD"
+-'  103  13  ~/health_DECOD
+|4,39,103,13,1768872271,"~/health_DECOD"
+-'  105  13  ~/health_DECOD
+|4,39,105,13,1768872271,"~/health_DECOD"
+-'  104  13  ~/health_DECOD
+|4,39,104,13,1768872271,"~/health_DECOD"
+-'  104  13  ~/health_DECOD
+|4,39,104,13,1768872271,"~/health_DECOD"
+-'  103  13  ~/health_DECOD
+|4,39,103,13,1768872271,"~/health_DECOD"
+-'  103  13  ~/health_DECOD
+|4,39,103,13,1768872271,"~/health_DECOD"
+-'  103  13  ~/health_DECOD
+|4,39,103,13,1768872271,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768872266,"~/health_DECOD"
+-'  1  0  ~/health_DECOD
+|4,39,1,0,1768872266,"~/health_DECOD"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+-'  1  39  ~/gittoken
+|4,39,1,39,1768792191,"~/gittoken"
+
+# Histórico de marcas nos arquivos (mais recente primeiro):
+
+> ~/.config/hypr/scripts/lock.sh
+	*	1769392169	0
+	"	10	0
+	^	10	0
+	.	9	8
+	+	9	8
+
+> ~/health_DECOD
+	*	1768875003	0
+	"	1	64
+	^	1	65
+	.	1	64
+	+	105	13
+	+	63	53
+	+	70	38
+	+	1	97
+	+	42	240
+	+	1	64
+
+> ~/code
+	*	1768873859	0
+	"	1	0
+
+> ~/gittoken
+	*	1768792190	0
+	"	1	39
+	^	1	40
+	.	1	39
+	+	1	39
+
+> ~/portfolio/.gitignore
+	*	1766451593	0
+	"	30	0
+	^	30	0
+	.	29	7
+	+	29	7
+
+> ~/token
+	*	1766450120	0
+	"	1	92
+	^	1	93
+	.	1	92
+	+	1	92
+
+> ~/.bashrc
+	*	1765080438	0
+	"	1	0
+
+> ~/.local/share/applications/steam.desktop
+	*	1765056818	0
+	"	8	0
+	.	8	0
+	+	2	9
+	+	3	9
+	+	6	9
+	+	7	19
+	+	8	0
+
+> /tmp/site/index.php
+	*	1764878863	0
+	"	4	0
+	^	4	0
+	.	3	20
+	+	3	20
+
+> /tmp/myApp/index.php
+	*	1764872901	0
+	"	7	16
+	^	7	17
+	.	7	17
+	+	10	2
+	+	12	18
+	+	3	17
+	+	4	9
+	+	7	17
+
+> ~/teste.php
+	*	1764871156	0
+	"	1	0
+
+> ~/.vimrc
+	*	1764846057	0
+	"	51	17
+	^	30	1
+	.	51	16
+	+	1	0
+	+	2	0
+	+	4	0
+	+	2	0
+	+	30	1
+	+	51	16
+
+> ~/.vimrc:
+	*	1764844094	0
+	"	1	0
+
+> ~/electron/render/renderer.js
+	*	1764481441	0
+	"	202	0
+	^	202	0
+	.	201	1
+	+	201	1
+
+> ~/electron/render/style.css
+	*	1764481422	0
+	"	123	0
+	^	123	0
+	.	122	1
+	+	122	1
+
+> ~/electron/render/index.html
+	*	1764481403	0
+	"	56	0
+	^	56	0
+	.	55	7
+	+	55	7
+
+> ~/electron/preload.js
+	*	1764481384	0
+	"	10	0
+	^	10	0
+	.	9	0
+	+	9	0
+
+> ~/electron/main.js
+	*	1764481370	0
+	"	1	0
+	^	74	0
+	.	73	3
+	+	73	3
+
+> ~/electron/package.json
+	*	1764481352	0
+	"	18	0
+	^	18	0
+	.	17	1
+	+	17	1
+
+> ~/interfaceWEB/public/index.html
+	*	1764479882	0
+	"	51	0
+	^	51	0
+	.	50	7
+	+	50	7
+
+> ~/interfaceWEB/server.js
+	*	1764479790	0
+	"	32	0
+	^	32	0
+	.	31	79
+	+	31	79
+
+> ~/musics
+	*	1764478680	0
+	"	3	0
+	^	3	0
+	.	2	76
+	+	4	0
+	+	1	75
+	+	2	76
+
+> ~/DV
+	*	1763343548	0
+	"	34	0
+	^	34	0
+	.	33	54
+	+	33	54
+
+> ~/a
+	*	1763086113	0
+	"	175	6
+	^	175	7
+	.	175	6
+	+	175	6
+
+> ~/redes.html
+	*	1763085803	0
+	"	190	0
+	^	190	0
+	.	189	7
+	+	1	130
+	+	1	112
+	+	1	0
+	+	1	15
+	+	189	7
+
+> ~/game.html
+	*	1763085356	0
+	"	78	3
+	^	78	4
+	.	78	3
+	+	59	0
+	+	75	0
+	+	59	0
+	+	77	0
+	+	78	3
+
+> ~/scip
+	*	1762991853	0
+	"	6	2
+	^	6	3
+	.	6	2
+	+	6	2

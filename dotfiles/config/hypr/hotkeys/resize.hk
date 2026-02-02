@@ -1,0 +1,21 @@
+
+# Set repeatable binds for resizing the active window.e
+bind=ALT,R,exec,notify-send "Resize Mod"
+bind = ALT, R, submap, resize
+submap = resize # Start a submap called "resize".
+bind = ALT, F, togglefloating
+binde = , right, resizeactive, 10 0
+binde = , left, resizeactive, -10 0
+binde = , up, resizeactive, 0 -10
+binde = , down, resizeactive, 0 10
+# Use `reset` to go back to the global submap
+bind = , escape, submap, reset
+bind = , enter, submap, reset
+bind = ALT, R, submap, reset
+submap = reset
+
+
+
+# Move/resize windows with mainMod + LMB/RMB and dragging
+bindm = $mainMod, mouse:272, movewindow
+bindm = Shift $mainMod, mouse:272, resizewindow
