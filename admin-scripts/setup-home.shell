@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Diretórios base
+USER_HOME="$HOME"
+SKEL_DIR="/etc/skel"
+
+create_group() {
+    local base="$1" group="$2" dirs=("${@:3}")  # pega todos os argumentos após os dois primeiros
+    for d in "${dirs[@]}"; do
+        mkdir -p "$base/$group/$d"
+        echo "  ✅ $base/$group/$d"
+    done
+}
+
+# chama a função para cada grupo
+create_group "$USER_HOME" "Documents" Notes Projects Docs
+create_group "$USER_HOME" "Media" Videos Musics Audios Images Photographs
+
+
+# Criar em /etc/skel (precisa de sudo)
+if [ "$(id -u)" -ne 0 ]; then
+    echo "Para criar pastas em /etc/skel, execute o script como root ou com sudo."
+else
+    create_group "$SKEL_DIR" "Documents" Notes Projects Docs
+    create_group "$SKEL_DIR" "Media" Videos Musics Audios Images Photographs
+fi
+
+echo "🎉 Estrutura de pastas criada com sucesso!"
