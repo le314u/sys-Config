@@ -1,0 +1,13 @@
+[Unit]
+Description=Cria /tmp/void e link ~/void
+After=default.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env bash -c '
+mkdir -p /tmp/void
+ln -sfn /tmp/void "$HOME/void"
+'
+
+[Install]
+WantedBy=default.target
