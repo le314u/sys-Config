@@ -10,51 +10,43 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-if ! systemctl is-active --quiet sddm; then
+# Verifica se SDDM é o display-manager configurado
+if ! readlink -f /etc/systemd/system/display-manager.service | grep -q "sddm.service"; then
     echo "Erro: Este script requer SDDM como display manager."
     exit 1
 fi
 
-
-
-# Nome do tema
 THEME_NAME="pixie"
-
-# Caminho de origem do tema (alterar para onde você baixou o tema)
-SOURCE_DIR="$(pwd)/themes/sddm/$THEME_NAME"
-
-# Caminho de destino do SDDM
+SOURCE_DIR="$PWD/themes/sddm/$THEME_NAME"
 DEST_DIR="/usr/share/sddm/themes/$THEME_NAME"
+SDDM_CONF="/etc/sddm.conf"
 
-# 1. Instala dependência
-echo "Instalando qt5-graphicaleffects..."
-sudo pacman -S --noconfirm qt5-graphicaleffects qt5-base qt5-declarative qt5-quickcontrols2
+echo "Instalando dependências..."
+pacman -S --noconfirm qt5-graphicaleffects qt5-base qt5-declarative qt5-quickcontrols2
 
-# 2. Copia tema para o diretório do SDDM
-echo "Copiando arquivos do tema para $DEST_DIR..."
+echo "Copiando tema para $DEST_DIR..."
 mkdir -p "$DEST_DIR"
 cp -r "$SOURCE_DIR/"* "$DEST_DIR/"
 
-# 3. Atualiza /etc/sddm.conf
-SDDM_CONF="/etc/sddm.conf"
+# Garante que o arquivo exista
+touch "$SDDM_CONF"
 
-if ! grep -q "\[Theme\]" "$SDDM_CONF"; then
+# Garante seção [Theme]
+if ! grep -q "^\[Theme\]" "$SDDM_CONF"; then
     echo -e "\n[Theme]" >> "$SDDM_CONF"
 fi
 
-# Define o tema
+# Remove qualquer Current antigo dentro da seção Theme
 sed -i "/^\[Theme\]/,/^\[/ s/^Current=.*/Current=$THEME_NAME/" "$SDDM_CONF"
 
-# Caso não exista Current, adiciona
-if ! grep -q "^Current=$THEME_NAME" "$SDDM_CONF"; then
-    echo "Current=$THEME_NAME" >> "$SDDM_CONF"
+# Se ainda não existir Current na seção, adiciona
+if ! grep -A5 "^\[Theme\]" "$SDDM_CONF" | grep -q "^Current="; then
+    sed -i "/^\[Theme\]/a Current=$THEME_NAME" "$SDDM_CONF"
 fi
 
-echo "Tema '$THEME_NAME' definido no SDDM."
+echo "Tema '$THEME_NAME' definido."
 
-# 4. Reinicia SDDM
-echo "Reiniciando SDDM para aplicar o tema..."
+echo "Reiniciando SDDM..."
 systemctl restart sddm
 
-echo "Concluído! O tema '$THEME_NAME' deve estar ativo na tela de login."
-
+echo "Concluído! Tema aplicado com sucesso."
